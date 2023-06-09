@@ -1,0 +1,2 @@
+# Example of a `.gitattributes` file which reclassifies `.php` files as PHP (instead of Hack, sometimes):
+*.php linguist-language=PHP
