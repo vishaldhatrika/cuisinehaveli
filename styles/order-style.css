@@ -1,0 +1,282 @@
+/*  */
+.food-menu h1,.food-menu h2,.food-menu h3,.food-menu h4,.food-menu h5,.food-menu h6, 
+.category h1,.category h2,.category h3,.category h4,.category h5,.category h6{
+    font-family: 'Vollkorn', serif;
+    font-weight: lighter;
+}
+
+.btn
+{
+    padding: 1.3%;
+    background-color: #DAA520;
+    border-radius: 10px;
+    border: 0px;
+}
+
+.category
+{
+    background-color: rgba(216, 216, 216, 0.425);
+    border-radius: 10px;
+    margin: 10px auto;
+    width:85%;
+    padding: 10px 20px;
+    text-align: center;
+
+
+}
+.category img{
+    /* width:100%;
+    height:100%; */
+
+    width: 200px; height:200px; object-fit: cover;
+    border-radius: 10px;
+
+}
+
+.cat{
+    /* border: 1px solid red; */
+    width:30%;
+    float:left;
+    margin:2% 1% ;
+    height: 20%;
+
+
+
+}
+a .cat:hover
+{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.food-menu
+{
+    background-color: rgba(216, 216, 216, 0.425);
+    border-radius: 10px;
+    margin: 10px auto;
+    width:85%;
+    padding: 10px 20px;
+    align-items: center;
+    /* text-align: center; */
+}
+
+
+
+
+.Cat-button
+{
+    border:none;
+    background-color: inherit;
+    margin:10px;
+    padding: 6px;
+    border-radius: 4px;
+    display: block;
+    box-shadow:0 2px 4px grey;
+    width: fit-content;
+}
+/* .qty
+{
+    float:left;
+    line-height: 1.5;
+    vertical-align: middle;
+    padding: 2%;
+}
+.qty input{
+    line-height: 1.5;
+    vertical-align: middle;
+    padding: 2%;
+} */
+
+
+.qty
+{
+    /* border:1px solid black; */
+    float:right;
+    width: fit-content;
+    margin: 10px;
+    margin-bottom: 0;
+    padding: 3px;
+    border-radius:35px;
+    background-color: white;
+}
+/* .qty span{
+    padding: 10px;
+} */
+.plus, .minus{
+    display: inline-block;
+    width:35px;
+    height:35px;
+    border-radius: 50%;
+    border: solid 1px lightgray;
+    background-color: lightgray;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 2;
+    user-select: none;
+    cursor: pointer;
+}
+.plus:hover,.minus:hover
+{
+    background-color: rgba(121, 121, 121, 0.733);
+
+}
+.qtyinp::-webkit-inner-spin-button, 
+.qtyinp::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+.qtyinp{
+    height:35px;
+    text-align: center;
+    border:none;
+    outline:none;
+
+}
+
+
+
+.S{
+    /* border: 1px solid red; */
+    width:90%;
+    float: left;
+    margin: 8px 4px;
+    /* border:1px solid gray; */
+    background-color: rgb(216, 216, 216);
+    border-radius:13px;
+    padding:7px;
+    padding-right: 3px;
+    vertical-align: middle;
+}
+
+.S h1
+{
+    text-align: center;
+}
+.desc
+{
+    float:left;
+    width:70%;
+    margin-left: 3%;
+    
+}
+
+.Itemimg{
+    width:100px;
+    height: 100px;
+    /* margin: 0 30%; */
+    float: left;
+    margin-left: 1%;
+    
+    /* position: absolute; */
+    
+}
+
+.Itemimg img{
+    width:100%;
+    height: 100%;
+    /* position: relative; */
+    border-radius: 13px;
+}
+
+.sectiontitle{
+    font-family: 'Playfair Display',serif;
+    
+}
+.sectionsubtitle{
+    font-family: 'Playfair Display',serif;
+    text-align: center;
+    letter-spacing: 1.5px;
+}
+
+.foodsearch
+{
+    /* background-color: rgba(216, 216, 216, 0.425); */
+    border-radius: 10px;
+    margin: 20px auto;
+    width:85%;
+    background-image:url("../media/searchbarimgblur.jpg");
+    
+
+    padding: 60px 20px;
+    text-align: center;
+    border: 0px;
+}
+
+.foodsearch input[type="searchitem"] 
+{
+    width: 65%;
+    padding: 1.3%;
+    margin: 5px 5px;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: 0px;
+}
+
+.foodsearch input[type="submit"]:hover, .Cat-button:hover{
+    background-color:darkgoldenrod;
+    cursor: pointer;
+}
+.float-responsive
+{
+    position: relative;
+}
+
+.float-text
+{
+    /* position: absolute; */
+    bottom:23px;
+    left:40%;
+}
+
+.text-white
+{
+    color:black;
+}
+
+
+
+
+
+.Order-btn {
+    /* display: inline; */
+    border: 0px;
+    background-color: rgba(184, 135, 11, 0.575);
+    /* margin: 0 30%; */
+    text-decoration: none;
+    line-height: 1.5;
+    float:right;
+    border-radius: 4px;
+    padding: 2%;
+    margin-left: 1.5%;
+    text-align: center;
+}
+
+.Order-btn a, .Order-btn a:visited, .Order-btn a:hover
+{
+    /* padding: 2%; */
+    text-decoration: none;
+    color:black;
+    /* border-radius: 30px; */
+
+}
+
+
+
+
+html {
+    scroll-behavior: smooth;
+  }
+
+/* 
+  .sub-cat h1
+  {
+    text-align: center;
+  } */
+
+  .sub-cat{
+      display:none;
+  }
+  .alerttext{
+    font-family:'Playfair Display';
+    font-weight: bold;
+  }

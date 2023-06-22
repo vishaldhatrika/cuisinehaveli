@@ -1,0 +1,102 @@
+main{
+    text-align: center;
+}
+.tblsnotfree{
+    padding: 10px;
+    margin: 10px;
+    color: blue;
+    font-family: 'Verdana',sans-serif; 
+ }
+ .hide{
+     display:none;
+ }
+
+.bookingcard{
+    width: 65%;
+    background-color: rgba(216, 216, 216, 0.425);
+    border-radius: 15px;
+    line-height: 3;
+    margin: 20px auto;
+    padding: 15px;
+}
+
+.tbl{
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+ .msg{
+    font-size:medium;
+    line-height: 1.7;
+
+ }
+
+ label{
+     border: 1px solid grey;
+     padding: 0 10px;
+     margin: 10px;
+     border-radius: 4px;
+     display:inline-block;
+ }
+ label:hover{
+     background-color: #DAA520;
+ }
+ label input:focus{
+    background-color: #DAA520;
+}
+ label input[type='radio']{
+   border:none;
+   width: inherit;
+   height: inherit;
+   background-color: white;
+   
+ }
+.bookingstable{
+    font-size:medium;
+    line-height: 1.7;
+    margin: auto;
+ }
+ .bookingstable td{
+    border:none;
+ }
+ .bookingstable th{
+     border-bottom: 3px solid grey;
+     
+ }
+ 
+.msgcard{
+    margin: 0 auto;
+    padding: 40px;
+    font-size:medium;
+    line-height: 2;
+}
+ @media screen and (max-width: 480px){
+    .msgcard{
+        width:200px;
+    }
+ }
+ 
+ @media screen and (min-width: 480px) {
+ .msgcard{
+     width:40vw;
+ }
+}
+.slotsSubmitBtn, .checkSlotsBtn{
+    margin: 0 11px;
+    padding: 7px 11px;
+    display: inline-block;
+    background-color: #ffd9799d;
+    
+    border:none;
+    outline:none;
+    border-radius: 6px;
+}
+
+.slotsSubmitBtn:hover, .checkSlotsBtn:hover{
+    background-color: #DAA520;
+}
+/* .slotsSubmitBtn{
+    display: block;
+} */

@@ -1,0 +1,27 @@
+.myorders, .myreservations{
+    width:300px;
+    height:300px;
+    border-radius: 15px;
+    display: inline-block;
+    margin: 10px;
+
+}
+.myorders img, .myreservations img{
+    overflow: hidden;
+    border-radius: 15px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.caption{
+   color:rgba(255, 255, 255, 0);
+    font-size: large;
+    font-family: 'Playfair Display',serif;
+}
+
+.myorders:hover .cardimg, .myreservations:hover .cardimg{
+    filter:blur(3px);
+}
+.myorders:hover .caption, .myreservations:hover .caption{
+    color:rgba(0, 0, 0, 0.87);
+    
+}

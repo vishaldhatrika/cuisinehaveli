@@ -1,0 +1,124 @@
+.card{
+    width:100%;
+    background-color: lemonchiffon;
+    border:1px solid rgba(253, 212, 135, 0.808);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    vertical-align: middle;
+
+
+    display: grid;
+    grid-template-columns: 35% 40% 20%;
+    
+    grid-gap: 10px;
+}
+.card:hover{
+    background-color: lightgoldenrodyellow;
+}
+.noorders{
+    margin: auto auto;
+}
+
+.orderid{
+    font-size: large;
+    color: rgb(255, 83, 83);
+    margin: auto 0;
+    line-height: 3;
+}
+.orderdate{
+    font-style: italic;
+    line-height: 2;
+}
+
+
+.leftcard{
+    margin:  auto 0;
+    
+    
+    /* float:left; */
+    display: inline-block;
+}
+.midcard{
+    
+    margin:  auto;
+    height: 100%;
+    /* float:left; */
+    display: inline-block;
+    /* border: 1px solid salmon; */
+    vertical-align: middle;
+    text-align: center;
+}
+
+.tdcss, .thcss{
+    font-family: 'Roboto', sans-serif;
+    border-bottom: 1px solid gray;
+  
+
+}
+.rightcard
+{
+    
+    display: inline-block;
+    margin: auto;
+    height: 100%;
+    text-align: center;
+    /* float:right; */
+}
+.rightcard select{
+    border:none;
+    outline: none;
+    height:30px;
+    /* width: 100px; //width fix ehndhuku */
+    margin: 25px;
+    border-radius: 4px;
+    padding: 0 10px;
+}
+
+.Placed
+{
+    background-color: rgba(255, 181, 21, 0.74);
+}
+.Accepted{
+    background-color: rgba(119, 236, 1, 0.74);
+}
+.outfordelivery{
+    background-color: rgba(56, 158, 253, 0.74);
+}
+.Cancelled{
+    background-color: rgba(216, 37, 37, 0.74);
+}
+.Delivered{
+    background-color: rgba(57, 146, 22, 0.74);
+}
+
+
+
+
+@media screen and (max-width:1080px){
+    
+.leftcard{
+    /* width: 35%; */
+    /* float:left; */
+    display: block;
+    margin: auto;
+    padding: 20px 0;
+}
+.midcard{
+    /* margin: 0 auto; */
+    /* width:35%; */
+    /* float:left; */
+    display: block;
+    margin: auto;
+    padding: 20px 0;
+    /* border: 1px solid salmon; */
+}
+.rightcard
+{
+    display: block;
+    margin: auto;
+    padding: 20px 0;
+    /* width: 25%; */
+    /* float:right; */
+}
+}

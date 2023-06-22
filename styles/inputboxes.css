@@ -1,0 +1,23 @@
+
+input[type='text'], input[type='password']{
+    outline:none;
+    border:none;
+    height:45px;
+    max-width:200px;
+    min-width: 200px;
+    margin: 5px 3px;
+    padding: 0px 5px;
+    border-radius: 5px;
+}
+textarea{
+    outline:none;
+    border:none;
+    min-height:85px;
+    margin: 5px 3px;
+    padding: 0px 5px;
+    max-width:700px;
+    min-width: 300px;
+    max-height: 700px;
+    border-radius: 5px;
+
+}

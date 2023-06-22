@@ -1,0 +1,146 @@
+.tbl-full
+{
+	width: 100%;
+}
+
+nav
+{
+	position: sticky;
+    z-index: 2;
+    top: 0;
+	width: 100%;
+
+}
+
+.wrapper
+{
+	width: 80%;
+	margin: 0 auto;
+	padding : 1%;
+}
+
+.main
+{
+	background-color: rgba(216, 216, 216, 0.425);
+	padding: 3% 0;
+}
+.clear-fix
+{
+	float:left;
+	clear: both;
+}
+
+.col-4
+{
+	width:19%;
+	background-color: white;
+	margin: 1%;
+	padding:2%;
+	float: left;
+
+}
+
+.tbl-30
+{
+	width:30%;
+}
+
+.tbl-50
+{
+	width:50%;
+}
+table tr th
+{
+	border-bottom: 1px solid black;
+	padding: 7px;
+	margin:7px;
+	text-align: left;
+}
+
+table tr td
+{
+	padding: 7px;
+	margin:7px;
+}
+
+.btn-primary
+{
+	background-color: #3498db;
+	border-radius:5px;
+	padding: 7px;
+	margin:7px;
+	outline: none;
+	border:none;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	display: inline-block;
+
+}
+
+.btn-primary:hover{
+	background-color: #2980b9;
+	cursor:pointer;
+
+}
+
+.btn-secondary
+{
+	background-color: #D0A43C;
+	border-radius:5px;
+	padding: 7px;
+	margin:7px;
+	outline: none;
+	border:none;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	display: inline-block;
+
+}
+
+.btn-secondary:hover{
+
+	background-color: #d39a16;
+	cursor:pointer;
+
+}
+
+.btn-danger
+{
+	background-color: #e74c3c;
+	display: inline-block;
+	border-radius:5px;
+	padding: 7px;
+	margin:7px;
+	color: white;
+	outline: none;
+	border:none;
+	text-decoration: none;
+	font-weight: bold;
+
+}
+
+.btn-danger:hover{
+	background-color: #c0392b;
+	cursor:pointer;
+
+}
+
+.success
+{
+	color:#27ae60;
+}
+.error
+{
+	color:#c0392b;
+}
+
+
+.text-center
+{
+	text-align: center;
+}
+
+
+
