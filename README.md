@@ -1,6 +1,11 @@
-https://cuisinehaveli.000webhostapp.com
+### Website Link New Hosting
+https://cuisinehaveli.wuaze.com 
 
-Screenshots
+
+### Website Link Old Hosting
+https://cuisinehaveli.000webhostapp.com 
+
+### Screenshots
 
 ![Screenshot (189)](https://github.com/vishaldhatrika/cuisinehaveli/assets/69749242/6f9ad748-6f5c-48cf-a2f0-062a53cf0346)
 ![Screenshot (190)](https://github.com/vishaldhatrika/cuisinehaveli/assets/69749242/c6a332ab-dd83-4fea-ab66-1891f70dbca4)
